@@ -3,9 +3,10 @@
 
 #include <iostream>
 using namespace std;
+int FirstNumber = 0, SecondNumber = 0, MultiplacationResult = 0;
 //int DemoConsoleOutput();
 void MultiplyNumbers() {
-    int FirstNumber = 0, SecondNumber = 0, MultiplacationResult = 0;
+//    int FirstNumber = 0, SecondNumber = 0, MultiplacationResult = 0;
     cout << "This program will help you multiply two numbers " << endl;
     cout << "Enter the first number: ";
     // int FirstNumber = 0;
