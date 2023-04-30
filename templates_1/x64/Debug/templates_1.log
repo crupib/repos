@@ -1,0 +1,9 @@
+﻿  max1.hpp
+C:\Users\crupi\source\repos\templates_1\max1.hpp(11,29): error C2338: static_assert failed: 'int too small'
+C:\Users\crupi\source\repos\templates_1\max1.hpp(9,2): error C3861: 'undeclared': identifier not found
+C:\Users\crupi\source\repos\templates_1\max1.hpp(9,12): message : 'undeclared': function declaration must be available as none of the arguments depend on a template parameter
+  templates_1.cpp
+C:\Users\crupi\source\repos\templates_1\max1.hpp(11,29): error C2338: static_assert failed: 'int too small'
+C:\Users\crupi\source\repos\templates_1\max1.hpp(9,2): error C3861: 'undeclared': identifier not found
+C:\Users\crupi\source\repos\templates_1\max1.hpp(9,12): message : 'undeclared': function declaration must be available as none of the arguments depend on a template parameter
+  Generating Code...
