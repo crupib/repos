@@ -40,4 +40,23 @@ int main()
     int PreFixDec = --MyInt;
     cout << "Result of PreFix Decrement = " << PreFixDec << endl;
     cout << "After PreFix Decrement, MyInt = " << MyInt << endl;
+    unsigned short UShortValue = 65535;
+    cout << "Incrementing unsigned short " << UShortValue << " gives: ";
+    cout << ++UShortValue << endl;
+    short SignedShort = 32767;
+    cout << "Incrementing signed short " << SignedShort << " gives: ";
+    cout << ++SignedShort << endl;
+    int MyNum = 20;
+    bool CheckEquality = (MyNum == 20);
+    cout << CheckEquality << endl;
+    bool CheckInequality = (MyNum != 100);
+    cout << CheckInequality << endl;
+    bool CheckEqualityAgain = (MyNum == 200);
+    cout << CheckEqualityAgain << endl;
+    bool CheckInequalityAgain = (MyNum != 20);
+    cout << CheckInequalityAgain << endl;
+    bool CheckLessThan = (MyNum < 100);
+    cout << CheckLessThan << endl;
+    bool CheckGreaterThan = (MyNum > 100);
+    cout << CheckGreaterThan << endl;
 }
