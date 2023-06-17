@@ -1,0 +1,4 @@
+C:\Users\crupi\source\repos\masm\Debug\masm.vcxproj.MdMergeInputs.cache
+C:\Users\crupi\source\repos\masm\Debug\masm.vcxproj.cppwinrt_plat.cache
+C:\Users\crupi\source\repos\masm\Debug\masm.vcxproj.cppwinrt_comp.cache
+C:\Users\crupi\source\repos\masm\Debug\masm.exe
