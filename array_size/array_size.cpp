@@ -26,7 +26,7 @@ int main()
         Result = Num1 + Num2;
     
     cout << "Result is : " << Result << endl;
-    */
+    
     char Buffer[20] = { '\0' };
     cout << "Enter a line of text: " << endl;
     string LineEntered;
@@ -68,6 +68,7 @@ int main()
         Saturday
     };
     cout << "Find what days of the week are named after! " << endl;
+    cout << "Enter a number for a day (Sunday = 0): ";
     int Day = Sunday;
     cin >> Day;
     if (Day == Sunday)
@@ -86,5 +87,42 @@ int main()
         cout << "Saturday was named after the Saturn" << endl;
     else
         cout << "Wrong input, execute again!" << endl;
-    return 0;
+    
+    switch (Day)
+    {
+
+    case Sunday:
+        cout << "Sunday was named after the Sun" << endl;
+        break;
+    case Monday:
+        cout << "Monday was named after the Moon" << endl;
+        break;
+    case Tuesday:
+        cout << "Tuesday was named after the Mars" << endl;
+        break;
+    case Wednesday:
+        cout << "Wednesday was named after the Mercury" << endl;
+        break;
+    case Thursday:
+        cout << "Thursday was named after the Jupiter" << endl;
+        break;
+    case Friday:
+        cout << "Friday was named after the Venus" << endl;
+        break;
+    case Saturday:
+        cout << "Saturday was named after the Saturn" << endl;
+        break;
+    default:
+        cout << "Wrong input, execute again!" << endl;
+        break;
+    }
+    */
+int Num1 = 0, Num2 = 0;
+cout << "Enter two numbers : " << endl;
+
+cin >> Num1;
+cin >> Num2;
+int Max = (Num1 > Num2) ? Num1 : Num2;
+cout << "THe greater of " << Num1 << " and " << Num2 << " Is: " << Max<< endl;
+return 0;
 }

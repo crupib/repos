@@ -1,1 +1,2 @@
 C:\Users\crupi\Documents\gitlab\repos\array_size\x64\Debug\array_size.exe
+C:\Users\crupi\source\repos\array_size\x64\Debug\array_size.exe
