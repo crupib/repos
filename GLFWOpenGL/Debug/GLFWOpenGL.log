@@ -1,0 +1,19 @@
+﻿  main.cpp
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp__CreateDCW@16 referenced in function __glfwPlatformGetGammaRamp
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp__DeleteDC@4 referenced in function __glfwPlatformGetGammaRamp
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp__GetDeviceCaps@8 referenced in function __glfwGetMonitorContentScaleWin32
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp__GetDeviceGammaRamp@8 referenced in function __glfwPlatformGetGammaRamp
+glfw3.lib(win32_monitor.obj) : error LNK2019: unresolved external symbol __imp__SetDeviceGammaRamp@8 referenced in function __glfwPlatformSetGammaRamp
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__CreateBitmap@20 referenced in function _createIcon
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__CreateRectRgn@16 referenced in function _updateFramebufferTransparency
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__DeleteObject@4 referenced in function _createIcon
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__CreateDIBSection@24 referenced in function _createIcon
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__DragQueryFileW@16 referenced in function _windowProc@16
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__DragQueryPoint@8 referenced in function _windowProc@16
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__DragFinish@4 referenced in function _windowProc@16
+glfw3.lib(win32_window.obj) : error LNK2019: unresolved external symbol __imp__DragAcceptFiles@8 referenced in function _createNativeWindow
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp__ChoosePixelFormat@8 referenced in function __glfwInitWGL
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp__DescribePixelFormat@16 referenced in function __glfwCreateContextWGL
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp__SetPixelFormat@12 referenced in function __glfwCreateContextWGL
+glfw3.lib(wgl_context.obj) : error LNK2019: unresolved external symbol __imp__SwapBuffers@4 referenced in function _swapBuffersWGL
+C:\Users\crupi\source\repos\GLFWOpenGL\Debug\GLFWOpenGL.exe : fatal error LNK1120: 17 unresolved externals

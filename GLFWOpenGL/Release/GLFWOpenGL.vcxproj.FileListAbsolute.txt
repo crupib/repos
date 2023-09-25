@@ -1,0 +1,4 @@
+C:\Users\crupi\source\repos\GLFWOpenGL\Release\GLFWOpenGL.vcxproj.MdMergeInputs.cache
+C:\Users\crupi\source\repos\GLFWOpenGL\Release\GLFWOpenGL.vcxproj.cppwinrt_plat.cache
+C:\Users\crupi\source\repos\GLFWOpenGL\Release\GLFWOpenGL.vcxproj.cppwinrt_comp.cache
+C:\Users\crupi\source\repos\GLFWOpenGL\Release\GLFWOpenGL.exe
